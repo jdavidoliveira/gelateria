@@ -1,7 +1,18 @@
+import SecaoBanner from "./Sections/SecaoBanner";
+import SecaoSabores from "./Sections/SecaoSabores";
+import SecaoEventos from "./Sections/SecaoEventos";
+import SecaoSobre from "./Sections/SecaoSobre";
+
+
 function Home () {
     return (
         <>
-            <h1>Home</h1>
+            <main>
+                <SecaoBanner />
+                <SecaoSabores />
+                <SecaoEventos />
+                <SecaoSobre />
+            </main>
         </>
     );
 }
