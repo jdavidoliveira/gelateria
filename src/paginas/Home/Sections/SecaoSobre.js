@@ -1,7 +1,7 @@
 function SecaoSobre () {
     return (
         <section className="secao-sobre">
-            <img src={process.env.PUBLIC_URL + './assets/banner-sobre.png'} alt="Banner Sobre" />
+            <img src={process.env.PUBLIC_URL + './assets/sobre-image.jpg'} alt="Banner Sobre" />
             <div className="secao-sobre-content">
                 <h2>SOBRE NÓS</h2>
                 <span>Alegria em cada casquinha!</span>
