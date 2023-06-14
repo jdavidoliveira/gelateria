@@ -21,7 +21,6 @@ header {
 
 .header-content img {
     height: 60px;
-    border-radius: 10%;
     cursor: pointer;
 }
 
@@ -43,4 +42,28 @@ header {
 
 .header-content nav a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 425px) {
+    header {
+        height: auto;
+    }
+
+    .header-content {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+
+    .header-content img {
+        height: 100px;
+    }
+
+    .header-content nav a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    
 }
