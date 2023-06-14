@@ -1,0 +1,118 @@
+.secao-banner {
+    height: 90vh;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/assets/banner-home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(249, 219, 121);
+}
+
+.secao-banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao-banner-content h1 {
+    font-size: 4rem;
+    color: #fff;
+    margin: auto;
+    text-shadow: 2px 2px 1px black;
+}
+
+.secao-sabores, .secao-eventos, .secao-sobre {
+    display: flex;
+    flex-direction: row;
+}
+
+.secao-sabores img, .secao-eventos img, .secao-sobre img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.secao-sabores-content, .secao-eventos-content, .secao-sobre-content {
+    padding: 3rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-sabores-content h2, .secao-eventos-content h2, .secao-sobre-content h2 {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.secao-sabores-content span, .secao-eventos-content span, .secao-sobre-content span {
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 425px) {
+    .secao-banner {
+        background-size: 100%;
+    }
+
+    .secao-banner h1 {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .secao-banner h1 {
+      font-size: 60px;
+    }
+  
+    .secao-sabores {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .secao-sabores img {
+      width: 100%;
+    }
+  
+    .secao-sabores-content p, .secao-eventos-content p, .secao-sobre-content p {
+      width: 100%;
+      padding: 100px 10px;
+      text-align: center;
+    }
+  
+    .secao-eventos {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .secao-eventos img {
+      width: 100%;
+    }
+  
+    .secao-sobre {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .secao-sobre img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 425px){
+    .secao-banner h1 {
+      font-size: 40px;
+    }
+  
+    .secao-eventos h2,
+    .secao-sabores h2,
+    .secao-sobre h2 {
+      line-height: 40px;
+    }
+  }

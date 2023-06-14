@@ -8,10 +8,10 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Header />
-        <Rotas />
+        <Header /> {/* Header */}
+        <Rotas /> {/* Main */}
       </BrowserRouter>
-        <Footer />
+        <Footer /> {/* Footer */}
     </>
   );
 }

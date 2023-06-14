@@ -3,6 +3,8 @@ import SecaoSabores from "./Sections/SecaoSabores";
 import SecaoEventos from "./Sections/SecaoEventos";
 import SecaoSobre from "./Sections/SecaoSobre";
 
+import './style.css'
+
 
 function Home () {
     return (
