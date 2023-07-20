@@ -7,9 +7,9 @@ function Header () {
             <div className="header-content">
                 <img src={process.env.PUBLIC_URL + './assets/logo.png'} alt="Logo da Gelateria" />
                 <nav>
-                    <Link to="/Home">Home</Link>
-                    <Link to="/Sabores">Sabores</Link>
-                    <Link to="/Sobre">Sobre</Link>
+                    <Link to="/home">Home</Link>
+                    <Link to="/sabores">Sabores</Link>
+                    <Link to="/sobre">Sobre</Link>
                 </nav>
             </div>
         </header>

@@ -7,9 +7,9 @@ function Rotas() {
   return (
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/Home" element={<Home />} />
-        <Route path="/Sabores" element={<Sabores />} />
-        <Route path="/Sobre" element={<Sobre />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/sabores" element={<Sabores />} />
+        <Route path="/sobre" element={<Sobre />} />
       </Routes>
   );
 }

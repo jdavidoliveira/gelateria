@@ -1,8 +1,12 @@
+import SecaoNossosSabores from "./Sections/SecaoNossosSabores";
+import SecaoSabores from './Sections/SecaoSabores';
+
 function Sabores () {
     return (
-        <>
-            <h1>Sabores</h1>
-        </>
+        <main>
+            <SecaoNossosSabores />
+            <SecaoSabores />
+        </main>
     );
 }
 
